@@ -4,7 +4,8 @@
 This project needs to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. And it is also required to refactor the code from this module to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data—and performs the ETL process by adding the data to a PostgreSQL database.
 
 ## Dataset
-The rating.csv is too big to upload to github. Fortunately, all the dataset comes from the [website](https://www.kaggle.com/rounakbanik/the-movies-dataset).
+The rating.csv is too big to upload to github. Fortunately, all the dataset comes from the [website](https://www.kaggle.com/rounakbanik/the-movies-dataset).  
+Other dataset, like movie_metadata.csv and wikipedia-movies.json, is in the folder [Resources](https://github.com/cffhr99/Module8-Challenge/tree/main/Resources)
 
 ## ETL_function_test.ipynb
  - Data is extracted from the website in JSON and CSV formats.
